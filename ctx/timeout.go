@@ -17,7 +17,7 @@ func (c *Context) Done() <-chan struct{} {
 }
 
 func (c *Context) Err() error {
-
+	return nil
 }
 
 var contextWithTimeout = context.WithTimeout
